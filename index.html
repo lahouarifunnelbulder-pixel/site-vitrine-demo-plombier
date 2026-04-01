@@ -3,16 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FC Plomberie Chauffage</title>
+    <title>FC Plomberie Chauffage | Dijon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="container nav">
-        <div class="brand">FC Plomberie</div>
+    <header class="top-meta">
+      <div class="container meta-row">
+        <span>📍 Dijon et alentours</span>
+        <span>⏱ Lun-Sam : 08:00 - 18:00</span>
+        <span>📞 06 89 89 99 35</span>
+      </div>
+    </header>
+
+    <header class="navbar">
+      <div class="container nav-row">
+        <div class="brand">
+          <div class="logo">FC</div>
+          <div>
+            <strong>FC Plomberie</strong>
+            <small>Chauffage</small>
+          </div>
+        </div>
         <nav>
           <a href="#">Accueil</a>
           <a href="#">Services</a>
@@ -24,94 +38,157 @@
     </header>
 
     <section class="hero">
-      <div class="overlay"></div>
+      <div class="hero-overlay"></div>
       <div class="container hero-grid">
-        <div>
-          <span class="pill">✔ Qualifié • Intervention rapide</span>
+        <div class="hero-left">
+          <span class="chip">✔ Qualifié • Intervention en moins de 24h</span>
           <h1>Votre expert<br /><span>Plombier Chauffagiste</span><br />à Dijon</h1>
-          <p>Je vous conseille, diagnostique et interviens pour tous vos besoins en chauffage, plomberie et rénovation de salle de bain.</p>
-          <div class="cta-row">
-            <button class="btn white">Devis / Intervention</button>
-            <button class="btn yellow">06 89 89 99 35</button>
+          <p>
+            Je vous conseille, diagnostique et interviens pour tous vos besoins en chauffage, plomberie et rénovation de salle de bain.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-light" href="#">📝 Devis / intervention</a>
+            <a class="btn btn-gold" href="#">📞 06 89 89 99 35</a>
+          </div>
+          <div class="hero-badges">
+            <span>🔒 Artisan certifié</span>
+            <span>⚡ Dépannage rapide</span>
+            <span>⭐ Avis 4.9/5</span>
           </div>
         </div>
-        <div class="hero-cards">
-          <article>🎯 <strong>Années d'expérience</strong><small>Plus de 15 ans de métier</small></article>
-          <article>⚙️ <strong>Satisfaction garantie</strong><small>Travail propre et soigné</small></article>
-          <article>📄 <strong>Certifié professionnel gaz</strong><small>Interventions sécurisées</small></article>
-          <article>🪪 <strong>Artisan local</strong><small>Basé à Dijon</small></article>
-        </div>
+
+        <aside class="hero-right">
+          <article>
+            <i>16+</i>
+            <div>
+              <strong>Années d'expérience</strong>
+              <small>Actif depuis 2008 sur Dijon</small>
+            </div>
+          </article>
+          <article>
+            <i>✓</i>
+            <div>
+              <strong>Satisfaction garantie</strong>
+              <small>Intervention propre et soignée</small>
+            </div>
+          </article>
+          <article>
+            <i>🔧</i>
+            <div>
+              <strong>Certifié professionnel gaz</strong>
+              <small>Mise en sécurité et conformité</small>
+            </div>
+          </article>
+          <article>
+            <i>📍</i>
+            <div>
+              <strong>Artisan local</strong>
+              <small>Dijon et environs</small>
+            </div>
+          </article>
+        </aside>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section services">
       <div class="container center">
-        <span class="section-pill">Services</span>
-        <h2>Mes prestations <span>adaptées à vos besoins</span></h2>
-        <p class="lead">Du simple dépannage au remplacement complet de votre chaudière, j'accompagne chaque intervention avec professionnalisme.</p>
-        <div class="cards services">
-          <div class="card">Entretien de chaudière gaz</div>
-          <div class="card">Désembouage</div>
-          <div class="card">Dépannage chaudière</div>
-          <div class="card">Remplacement de chaudière</div>
-          <div class="card">Rénovation salle de bain</div>
+        <span class="label">Services</span>
+        <h2>Mes prestations<br /><span>adaptées à vos besoins</span></h2>
+        <p class="section-intro">
+          Fort de plus de 15 ans d'expérience, je vous propose des solutions professionnelles pour tous vos projets de plomberie et chauffage.
+        </p>
+        <div class="service-grid">
+          <article class="service-card"><i>🔥</i>Entretien de chaudière gaz</article>
+          <article class="service-card"><i>🧪</i>Désembouage</article>
+          <article class="service-card"><i>🛠</i>Dépannage chaudière</article>
+          <article class="service-card"><i>♻️</i>Remplacement de chaudière</article>
+          <article class="service-card"><i>🛁</i>Rénovation salle de bain</article>
         </div>
       </div>
     </section>
 
-    <section class="about">
+    <section class="section about">
       <div class="container about-grid">
-        <div class="logo-box">FC<br />Plomberie Chauffage</div>
-        <div>
-          <span class="section-pill">À propos</span>
+        <div class="about-card">
+          <div class="big-logo">FC</div>
+          <h3>FC Plomberie Chauffage</h3>
+          <p>Qualité & sécurité</p>
+        </div>
+        <div class="about-text">
+          <span class="label">À propos</span>
           <h2>Flavian Charleux,<br /><span>Votre artisan de confiance</span></h2>
-          <p>Bienvenue chez FC Plomberie Chauffage. Depuis 2008, j'assure l'installation, la maintenance et le dépannage sur Dijon et alentours.</p>
-          <div class="stats">
-            <div class="stat">📍 Dijon</div>
-            <div class="stat">✅ +1000 interventions</div>
-            <div class="stat">⭐ 4.9/5 avis</div>
-            <div class="stat">📞 Appel rapide</div>
+          <p>
+            Bienvenue chez FC Plomberie Chauffage. Je suis Flavian Charleux, artisan chauffagiste-plombier, avec une expertise confirmée sur Dijon.
+          </p>
+          <div class="about-badges">
+            <span>📍 DIJON</span>
+            <span>🛠 +1000 interventions</span>
+            <span>⭐ 4.9/5</span>
+            <span>📞 Appel direct</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section gallery-section">
       <div class="container center">
-        <span class="section-pill">Portfolio</span>
+        <span class="label">Portfolio</span>
         <h2>Découvrez mes réalisations</h2>
-        <div class="gallery">
-          <div></div><div></div><div></div><div></div>
+        <p class="section-intro">Quelques exemples de mes interventions en plomberie et chauffage.</p>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=480&q=80" alt="Installation sanitaire" />
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=480&q=80" alt="Chaudière" />
+          <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=480&q=80" alt="Chauffe-eau" />
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=480&q=80" alt="Brûleur" />
         </div>
       </div>
     </section>
 
-    <section class="section soft">
+    <section class="section contact-section">
       <div class="container center">
-        <span class="section-pill">Contact</span>
+        <span class="label">Contact</span>
         <h2>Parlons de votre projet</h2>
-        <div class="cards contact-cards">
-          <div class="card">Par téléphone<br /><strong>06 89 89 99 35</strong></div>
-          <div class="card">Demande en ligne<br /><strong>Formulaire en ligne</strong></div>
-          <div class="card">Zone d'intervention<br /><strong>Dijon et alentours</strong></div>
+        <p class="section-intro">Un projet de rénovation ? un besoin urgent ? Je suis à votre écoute.</p>
+        <div class="contact-cards">
+          <article><i>📞</i><h4>Par téléphone</h4><p>06 89 89 99 35</p></article>
+          <article><i>📄</i><h4>Demande en ligne</h4><p>Formulaire en ligne</p></article>
+          <article><i>📍</i><h4>Zone d'intervention</h4><p>Dijon et alentours</p></article>
         </div>
-        <div class="hours">Horaires d'ouverture • Lun-Sam 08:00-18:00</div>
+        <div class="hours-strip">
+          <strong>🕒 Horaires d'ouverture</strong>
+          <span>Lundi 08:00 - 18:00</span>
+          <span>Mardi 08:00 - 18:00</span>
+          <span>Mercredi 08:00 - 18:00</span>
+          <span>Jeudi 08:00 - 18:00</span>
+          <span>Vendredi 08:00 - 18:00</span>
+          <span>Samedi 08:00 - 18:00</span>
+        </div>
       </div>
     </section>
 
-    <section class="social">
+    <section class="section social-section">
       <div class="container center">
-        <span class="section-pill">Réseaux sociaux</span>
+        <span class="label white">Réseaux sociaux</span>
         <h2>Rejoignez-moi sur les réseaux</h2>
-        <div class="cards socials">
-          <div class="card">Instagram</div>
-          <div class="card">Facebook</div>
-          <div class="card">YouTube</div>
-          <div class="card">TikTok</div>
-          <div class="card">LinkedIn</div>
+        <p class="section-intro">Suivez mon activité, mes conseils et mes interventions.</p>
+
+        <div class="social-row">
+          <article>📷<strong>Instagram</strong><small>@fc_plomberie</small></article>
+          <article>ⓕ<strong>Facebook</strong><small>FC Plomberie</small></article>
+          <article>▶<strong>YouTube</strong><small>Tutoriels & conseils</small></article>
+          <article>♪<strong>TikTok</strong><small>@fc_plomberie</small></article>
+          <article>in<strong>LinkedIn</strong><small>FC Plomberie</small></article>
         </div>
-        <div class="insta-grid">
-          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
+        <div class="post-grid">
+          <img src="https://images.unsplash.com/photo-1616047006789-b7af3f7c1d55?auto=format&fit=crop&w=300&q=70" alt="Post chantier 1" />
+          <img src="https://images.unsplash.com/photo-1631545806523-7cf06cc9f043?auto=format&fit=crop&w=300&q=70" alt="Post chantier 2" />
+          <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=300&q=70" alt="Post chantier 3" />
+          <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=300&q=70" alt="Post chantier 4" />
+          <img src="https://images.unsplash.com/photo-1600431521340-491eca880813?auto=format&fit=crop&w=300&q=70" alt="Post chantier 5" />
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=300&q=70" alt="Post chantier 6" />
+          <img src="https://images.unsplash.com/photo-1556911220-bda9f7f7597e?auto=format&fit=crop&w=300&q=70" alt="Post chantier 7" />
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=300&q=70" alt="Post chantier 8" />
         </div>
       </div>
     </section>
@@ -119,13 +196,24 @@
     <footer>
       <div class="container footer-grid">
         <div>
-          <h4>FC Plomberie Chauffage</h4>
-          <p>Artisan plombier chauffagiste à Dijon.</p>
+          <div class="brand footer-brand"><div class="logo">FC</div><div><strong>FC Plomberie</strong><small>Chauffage</small></div></div>
+          <p>Je suis votre artisan plombier chauffagiste de confiance dans le secteur de Dijon.</p>
+          <div class="footer-icons"><span>ⓕ</span><span>📷</span><span>▶</span><span>in</span></div>
         </div>
-        <div><h4>Mes services</h4><p>Entretien • Dépannage • Rénovation</p></div>
-        <div><h4>Navigation</h4><p>Accueil • À propos • Contact</p></div>
-        <div><h4>Contact</h4><p>06 89 89 99 35</p></div>
+        <div>
+          <h4>Mes services</h4>
+          <ul><li>Entretien chaudière</li><li>Désembouage</li><li>Dépannage</li><li>Salle de bain</li></ul>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul><li>Accueil</li><li>Services</li><li>À propos</li><li>Réalisations</li><li>Contact</li></ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul><li>📞 06 89 89 99 35</li><li>✉️ fcharleux@gmail.com</li><li>📍 Dijon et alentours</li></ul>
+        </div>
       </div>
+      <div class="copyright">© 2026 FC Plomberie Chauffage - Tous droits réservés.</div>
     </footer>
   </body>
 </html>
